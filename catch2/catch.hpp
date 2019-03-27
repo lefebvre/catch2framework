@@ -12,6 +12,10 @@
 #define TWOBLUECUBES_SINGLE_INCLUDE_CATCH_HPP_INCLUDED
 // start catch.hpp
 
+// Handling VS2012 support for 'noexcept'
+// this file is generated at configuration time
+// and resides in the build directory
+#include "catch2/noexcept_workaround.hh"
 
 #define CATCH_VERSION_MAJOR 2
 #define CATCH_VERSION_MINOR 7
