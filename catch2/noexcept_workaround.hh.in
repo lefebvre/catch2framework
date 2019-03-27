@@ -1,9 +1,9 @@
 #ifndef NOEXCEPT_WORKAROUND_HH_
 #define NOEXCEPT_WORKAROUND_HH_
 
-#define HAS_NOEXCEPT @HAS_CXX11_NOEXCEPT@
+#cmakedefine HAS_CXX11_NOEXCEPT
 
-#ifndef HAS_NOEXCEPT
+#ifndef HAS_CXX11_NOEXCEPT
 #include <xkeycheck.h>
 #define noexcept
 #endif
