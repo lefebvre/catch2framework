@@ -12,11 +12,6 @@
 #define TWOBLUECUBES_SINGLE_INCLUDE_CATCH_HPP_INCLUDED
 // start catch.hpp
 
-// This is a work around for VS2013 lack of support for noexcept
-// This include is generated at configuration time
-// and lives in the build directory
-#include "catch2/noexcept_workaround.hh"
-
 #define CATCH_VERSION_MAJOR 2
 #define CATCH_VERSION_MINOR 2
 #define CATCH_VERSION_PATCH 3
